@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: c11c9c59989641346b7076c2c6c4cdc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1223044112862623165
+    second: TNT2_0
+  - first:
+      213: 4603600749824171370
+    second: TNT2_1
+  - first:
+      213: -3633674489815201305
+    second: TNT2_2
+  - first:
+      213: 2063488561274306761
+    second: TNT2_3
+  - first:
+      213: -8535721184963208212
+    second: TNT2_4
+  - first:
+      213: 4893699582078587874
+    second: TNT2_5
+  - first:
+      213: -4088276068649671318
+    second: TNT2_6
+  - first:
+      213: 3266442355562869475
+    second: TNT2_7
+  - first:
+      213: -3729801064974774186
+    second: TNT2_8
+  - first:
+      213: 666922283877499370
+    second: TNT2_9
+  - first:
+      213: -770138108275844081
+    second: TNT2_10
+  - first:
+      213: -2483105856329112912
+    second: TNT2_11
+  - first:
+      213: -91743996340807272
+    second: TNT2_12
+  - first:
+      213: 7820026225994098750
+    second: TNT2_13
+  - first:
+      213: 3490863068094010144
+    second: TNT2_14
+  - first:
+      213: -8329454539613896159
+    second: TNT2_15
+  - first:
+      213: 5421275649297400086
+    second: TNT2_16
+  - first:
+      213: 8670765116304716967
+    second: TNT2_17
+  - first:
+      213: -1573070805578961036
+    second: TNT2_18
+  - first:
+      213: 654323392037046336
+    second: TNT2_19
+  - first:
+      213: 3752363251333901767
+    second: TNT2_20
+  - first:
+      213: -8378820799947994367
+    second: TNT2_21
+  - first:
+      213: 7177212466172063611
+    second: TNT2_22
+  - first:
+      213: 4824192088789225560
+    second: TNT2_23
+  - first:
+      213: 2097049978078542000
+    second: TNT2_24
+  - first:
+      213: -1908255090933681694
+    second: TNT2_25
+  - first:
+      213: 3460904781618863124
+    second: TNT2_26
+  - first:
+      213: 4311604313814001002
+    second: TNT2_27
+  - first:
+      213: -6380193072805676386
+    second: TNT2_28
+  - first:
+      213: 914569433255243382
+    second: TNT2_29
+  - first:
+      213: 7616558822790436850
+    second: TNT2_30
+  - first:
+      213: -241394953110646458
+    second: TNT2_31
+  - first:
+      213: 8637651260575525549
+    second: TNT2_32
+  - first:
+      213: 373475847780067192
+    second: TNT2_33
+  - first:
+      213: -4944409146197359564
+    second: TNT2_34
+  - first:
+      213: 1667638333928233982
+    second: TNT2_35
+  - first:
+      213: -2497060158028273372
+    second: TNT2_36
+  - first:
+      213: -4509007177931838001
+    second: TNT2_37
+  - first:
+      213: 3863383556313511814
+    second: TNT2_38
+  - first:
+      213: -455912803850735920
+    second: TNT2_39
+  - first:
+      213: 8192381684803144341
+    second: TNT2_40
+  - first:
+      213: -1009898996391044291
+    second: TNT2_41
+  - first:
+      213: 130313627011040649
+    second: TNT2_42
+  - first:
+      213: 749195475569424944
+    second: TNT2_43
+  - first:
+      213: -5630378162927465672
+    second: TNT2_44
+  - first:
+      213: -5903457098795164640
+    second: TNT2_45
+  - first:
+      213: -8502322894502366170
+    second: TNT2_46
+  - first:
+      213: -4983283243778439688
+    second: TNT2_47
+  - first:
+      213: 4778160072988467513
+    second: TNT2_48
+  - first:
+      213: -3130706633913191193
+    second: TNT2_49
+  - first:
+      213: 8329898304682900472
+    second: TNT2_50
+  - first:
+      213: 321585676964774834
+    second: TNT2_51
+  - first:
+      213: -7630592832391748303
+    second: TNT2_52
+  - first:
+      213: -4487972663132625625
+    second: TNT2_53
+  - first:
+      213: -7082690237414380494
+    second: TNT2_54
+  - first:
+      213: -5737013210580205489
+    second: TNT2_55
+  - first:
+      213: -4038726770442514784
+    second: TNT2_56
+  - first:
+      213: -1360423206778255323
+    second: TNT2_57
+  - first:
+      213: -1294683403103793055
+    second: TNT2_58
+  - first:
+      213: -5419109566228146006
+    second: TNT2_59
+  - first:
+      213: 2704177426069301108
+    second: TNT2_60
+  - first:
+      213: 6087575555386396254
+    second: TNT2_61
+  - first:
+      213: -5629389798917695260
+    second: TNT2_62
+  - first:
+      213: 188073910052179565
+    second: TNT2_63
+  - first:
+      213: 288243584125289224
+    second: TNT2_64
+  - first:
+      213: -7660778154617443227
+    second: TNT2_65
+  - first:
+      213: 4564816993621081064
+    second: TNT2_66
+  - first:
+      213: 3024565896606977514
+    second: TNT2_67
+  - first:
+      213: -7545557391903044165
+    second: TNT2_68
+  - first:
+      213: -478829127912138132
+    second: TNT2_69
+  - first:
+      213: -9002724213891139515
+    second: TNT2_70
+  - first:
+      213: 4953801464037753770
+    second: TNT2_71
+  - first:
+      213: -4353519102567476863
+    second: TNT2_72
+  - first:
+      213: -4695660184120524144
+    second: TNT2_73
+  - first:
+      213: -1287713584358445318
+    second: TNT2_74
+  - first:
+      213: 1097947962946464334
+    second: TNT2_75
+  - first:
+      213: -45563557441593711
+    second: TNT2_76
+  - first:
+      213: 8074954224427386514
+    second: TNT2_77
+  - first:
+      213: 3385038060030635981
+    second: TNT2_78
+  - first:
+      213: 5691537559260535169
+    second: TNT2_79
+  - first:
+      213: -2021697305435133864
+    second: TNT2_80
+  - first:
+      213: -3858220404791132775
+    second: TNT2_81
+  - first:
+      213: 5146123020466011554
+    second: TNT2_82
+  - first:
+      213: 6458690382360761984
+    second: TNT2_83
+  - first:
+      213: 59005182158832016
+    second: TNT2_84
+  - first:
+      213: 690420219923380317
+    second: TNT2_85
+  - first:
+      213: 6702377074552910433
+    second: TNT2_86
+  - first:
+      213: -970973349212327522
+    second: TNT2_87
+  - first:
+      213: -6360430152040480340
+    second: TNT2_88
+  - first:
+      213: 8387075358595125428
+    second: TNT2_89
+  - first:
+      213: -2654129052197415743
+    second: TNT2_90
+  - first:
+      213: 5287425465624987923
+    second: TNT2_91
+  - first:
+      213: -5202443478220805468
+    second: TNT2_92
+  - first:
+      213: -6056974919649910439
+    second: TNT2_93
+  - first:
+      213: -1293324689381442040
+    second: TNT2_94
+  - first:
+      213: 1610160782593300547
+    second: TNT2_95
+  - first:
+      213: 7941573256977608905
+    second: TNT2_96
+  - first:
+      213: 7260727101683351188
+    second: TNT2_97
+  - first:
+      213: -2155338310734947941
+    second: TNT2_98
+  - first:
+      213: 7788179291414703911
+    second: TNT2_99
+  - first:
+      213: 2490381806238622522
+    second: TNT2_100
+  - first:
+      213: -8624237710055546973
+    second: TNT2_101
+  - first:
+      213: 1571240781634794845
+    second: TNT2_102
+  - first:
+      213: -1991102150392233004
+    second: TNT2_103
+  - first:
+      213: 185171174893125024
+    second: TNT2_104
+  - first:
+      213: -1418075875145735511
+    second: TNT2_105
+  - first:
+      213: 6595770235007564509
+    second: TNT2_106
+  - first:
+      213: -6089950280396850255
+    second: TNT2_107
+  - first:
+      213: 8882723442397359519
+    second: TNT2_108
+  - first:
+      213: 1801403339380465768
+    second: TNT2_109
+  - first:
+      213: -7070093863812480265
+    second: TNT2_110
+  - first:
+      213: 5327816165241046220
+    second: TNT2_111
+  - first:
+      213: -1604652660957319263
+    second: TNT2_112
+  - first:
+      213: -6693717112212079408
+    second: TNT2_113
+  - first:
+      213: 9217526758678203823
+    second: TNT2_114
+  - first:
+      213: -5301922644756885197
+    second: TNT2_115
+  - first:
+      213: 918293101767153414
+    second: TNT2_116
+  - first:
+      213: -4774510499054299843
+    second: TNT2_117
+  - first:
+      213: 1443300669621841750
+    second: TNT2_118
+  - first:
+      213: 6139405005491624635
+    second: TNT2_119
+  - first:
+      213: 1610486784987750307
+    second: TNT2_120
+  - first:
+      213: 5110719280647294192
+    second: TNT2_121
+  - first:
+      213: 7935396807710997154
+    second: TNT2_122
+  - first:
+      213: -5093195807189722254
+    second: TNT2_123
+  - first:
+      213: 8032824941925403475
+    second: TNT2_124
+  - first:
+      213: 8291879796293557682
+    second: TNT2_125
+  - first:
+      213: 7497303689822158731
+    second: TNT2_126
+  - first:
+      213: -6383346480317129891
+    second: TNT2_127
+  - first:
+      213: 353043421802236290
+    second: TNT2_128
+  - first:
+      213: -3477288230783033295
+    second: TNT2_129
+  - first:
+      213: -3891553576633859177
+    second: TNT2_130
+  - first:
+      213: 2132219094192569924
+    second: TNT2_131
+  - first:
+      213: 6588924648253331532
+    second: TNT2_132
+  - first:
+      213: 2115975963846140511
+    second: TNT2_133
+  - first:
+      213: -2854606165698433607
+    second: TNT2_134
+  - first:
+      213: 6707022838549186364
+    second: TNT2_135
+  - first:
+      213: -7291762193207732583
+    second: TNT2_136
+  - first:
+      213: -5263452690208627168
+    second: TNT2_137
+  - first:
+      213: -7773496600407974705
+    second: TNT2_138
+  - first:
+      213: 5457583791439468629
+    second: TNT2_139
+  - first:
+      213: 3010694762500644734
+    second: TNT2_140
+  - first:
+      213: 6195092646614268711
+    second: TNT2_141
+  - first:
+      213: 2676912776086419856
+    second: TNT2_142
+  - first:
+      213: 8285157128739024553
+    second: TNT2_143
+  - first:
+      213: -4863588761950105886
+    second: TNT2_144
+  - first:
+      213: 4242176341897217038
+    second: TNT2_145
+  - first:
+      213: 7318368273445933662
+    second: TNT2_146
+  - first:
+      213: 1288308793319182730
+    second: TNT2_147
+  - first:
+      213: -7652840671135116452
+    second: TNT2_148
+  - first:
+      213: -2833388601156103839
+    second: TNT2_149
+  - first:
+      213: 1844061606152390801
+    second: TNT2_150
+  - first:
+      213: -8808659834158733704
+    second: TNT2_151
+  - first:
+      213: -6695839473129603355
+    second: TNT2_152
+  - first:
+      213: -7087339291252246278
+    second: TNT2_153
+  - first:
+      213: 8389974931967018151
+    second: TNT2_154
+  - first:
+      213: -9100803232382328015
+    second: TNT2_155
+  - first:
+      213: -614033717031861264
+    second: TNT2_156
+  - first:
+      213: 1018915919385564633
+    second: TNT2_157
+  - first:
+      213: 3718358987609456955
+    second: TNT2_158
+  - first:
+      213: 395795242981662506
+    second: TNT2_159
+  - first:
+      213: 1193323796522483264
+    second: TNT2_160
+  - first:
+      213: 8947881658648667720
+    second: TNT2_161
+  - first:
+      213: 3302614941578303411
+    second: TNT2_162
+  - first:
+      213: -4321050644381259562
+    second: TNT2_163
+  - first:
+      213: -7123030932009365464
+    second: TNT2_164
+  - first:
+      213: -2795779822673029602
+    second: TNT2_165
+  - first:
+      213: 1227111062692371302
+    second: TNT2_166
+  - first:
+      213: -5189126901259901797
+    second: TNT2_167
+  - first:
+      213: -797549121251449990
+    second: TNT2_168
+  - first:
+      213: 3038067388018177483
+    second: TNT2_169
+  - first:
+      213: -7513738030596285556
+    second: TNT2_170
+  - first:
+      213: -5477219719486114756
+    second: TNT2_171
+  - first:
+      213: 6095116200107504579
+    second: TNT2_172
+  - first:
+      213: -4459055176466705366
+    second: TNT2_173
+  - first:
+      213: 1151438180660165683
+    second: TNT2_174
+  - first:
+      213: -3603890778026460010
+    second: TNT2_175
+  - first:
+      213: -6032727361845781180
+    second: TNT2_176
+  - first:
+      213: -4562134448139278315
+    second: TNT2_177
+  - first:
+      213: -6730781299307419807
+    second: TNT2_178
+  - first:
+      213: 3777496678908382400
+    second: TNT2_179
+  - first:
+      213: -6639866604973615636
+    second: TNT2_180
+  - first:
+      213: 1788854074364340087
+    second: TNT2_181
+  - first:
+      213: 421952886029729886
+    second: TNT2_182
+  - first:
+      213: -4601126921311905172
+    second: TNT2_183
+  - first:
+      213: 7657672905237809183
+    second: TNT2_184
+  - first:
+      213: 4389153492563565809
+    second: TNT2_185
+  - first:
+      213: -6744037590573582124
+    second: TNT2_186
+  - first:
+      213: -6855267908024374002
+    second: TNT2_187
+  - first:
+      213: 2359364726514186897
+    second: TNT2_188
+  - first:
+      213: -6386267808318838250
+    second: TNT2_189
+  - first:
+      213: 7459362237446365353
+    second: TNT2_190
+  - first:
+      213: -8177642084243591144
+    second: TNT2_191
+  - first:
+      213: 7179550685029415106
+    second: TNT2_192
+  - first:
+      213: -2283267194080117616
+    second: TNT2_193
+  - first:
+      213: 4049971643645179773
+    second: TNT2_194
+  - first:
+      213: -4530283016954566337
+    second: TNT2_195
+  - first:
+      213: -6022375021234744325
+    second: TNT2_196
+  - first:
+      213: -5817898155681040309
+    second: TNT2_197
+  - first:
+      213: 5381420864112508341
+    second: TNT2_198
+  - first:
+      213: 8874877856270923596
+    second: TNT2_199
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TNT2_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 812
+        width: 193
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ac03cfbdfd60fe0800000000000000
+      internalID: -1223044112862623165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_1
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 473
+        width: 265
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba2ca6b0f8daef4888cb3c735ebedc0
+      internalID: 4603600749824171370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 817
+        width: 190
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf6def82e42a2143a9be7566e9f220d
+      internalID: -3633674489815201305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 814
+        width: 182
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289fad950185f6d4c970199725f40cb1
+      internalID: 2063488561274306761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_4
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 820
+        width: 218
+        height: 261
+      alignment: 9
+      pivot: {x: 0.51, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0a7f3fcc674b41918c3f39040dd3f
+      internalID: -8535721184963208212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 858
+        width: 145
+        height: 216
+      alignment: 9
+      pivot: {x: 0.51496834, y: 0.25885546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aece924e179db4bbc747c7f0e97cd2
+      internalID: 4893699582078587874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 499
+        width: 193
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9367a700c21d04b8600f8c9462741a
+      internalID: -4088276068649671318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 468
+        width: 225
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9c4f9773d4dfd49ad46b2b2786dc7d
+      internalID: 3266442355562869475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 454
+        width: 252
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb04c7c2037b8b48b06b14d115f0cef
+      internalID: -3729801064974774186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 478
+        width: 215
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c39c74d56f30e2448700501d1e15bb7
+      internalID: 666922283877499370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 122
+        width: 256
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e1ba7e25528d4db9343899d94e6f9
+      internalID: -770138108275844081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 115
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b557fadff87eb5b408872e6cd86f41e3
+      internalID: -2483105856329112912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 121
+        width: 251
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dbb53f7811fb84585fd3c046029dfd
+      internalID: -532507567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TNT2_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 90
+        width: 257
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4571e5b08ed3af46b1121b610faae11
+      internalID: 1986960048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f2af22cdddc40a141a70735efe6ae06a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1254.0,"y":1254.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      TNT2_0: -1223044112862623165
+      TNT2_1: 4603600749824171370
+      TNT2_10: -770138108275844081
+      TNT2_11: -2483105856329112912
+      TNT2_12: -532507567
+      TNT2_13: 1986960048
+      TNT2_2: -3633674489815201305
+      TNT2_3: 2063488561274306761
+      TNT2_4: -8535721184963208212
+      TNT2_5: 4893699582078587874
+      TNT2_6: -4088276068649671318
+      TNT2_7: 3266442355562869475
+      TNT2_8: -3729801064974774186
+      TNT2_9: 666922283877499370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
