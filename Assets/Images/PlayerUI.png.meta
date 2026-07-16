@@ -1,10 +1,43 @@
 fileFormatVersion: 2
-guid: 6106ebab0103f1145bdb5dfddf8da0a9
+guid: eb7898d8a9782ef4b9aac070c14c4b71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5441223297315994465
-    second: Tileset_0
+      213: 3104668946134394063
+    second: PlayerUI 1_0
+  - first:
+      213: 6887653332676163089
+    second: PlayerUI 1_1
+  - first:
+      213: -5682418500923102983
+    second: PlayerUI 1_2
+  - first:
+      213: -5681742892339317296
+    second: PlayerUI 1_3
+  - first:
+      213: 418345612096917888
+    second: PlayerUI 1_4
+  - first:
+      213: 5620028520167994638
+    second: PlayerUI 1_5
+  - first:
+      213: 7840212722168220684
+    second: PlayerUI 1_6
+  - first:
+      213: 847292527731624979
+    second: PlayerUI 1_7
+  - first:
+      213: -4655101319029767828
+    second: PlayerUI 1_8
+  - first:
+      213: -5757168536465309796
+    second: PlayerUI 1_9
+  - first:
+      213: 3654902020030852330
+    second: PlayerUI 1_10
+  - first:
+      213: 900324325358319211
+    second: PlayerUI 1_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +81,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,45 +133,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_0
+      name: PlayerUI 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 96
-        height: 96
+        x: 110
+        y: 703
+        width: 228
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 31, y: 31, z: 31, w: 31}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16b791492cb138b40800000000000000
-      internalID: 5441223297315994465
+      spriteID: fc4e68f05fff51b20800000000000000
+      internalID: 3104668946134394063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_1
+      name: PlayerUI_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 96
-        height: 31
+        x: 88
+        y: 500
+        width: 667
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 31, y: 0, z: 31, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26ccb42e2673c546a7c8f356a43d155
-      internalID: -996115116
+      spriteID: 030e3e93132832e43925ff305ff72ca4
+      internalID: 973522995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerUI_1
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 517
+        width: 634
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 46, y: 6, z: 140, w: 5}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc3bcff8e1d00418068e06ee067ab1
+      internalID: 1814047981
       vertices: []
       indices: 
       edges: []
@@ -147,7 +202,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 46cc636e0ba75c84aadf80dbcd8bc231
+    spriteID: 0159378ae3d902f4893153a4c4c93ba3
     internalID: 0
     vertices: []
     indices: 
@@ -157,8 +212,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tileset_0: 5441223297315994465
-      Tileset_1: -996115116
+      PlayerUI 1_0: 3104668946134394063
+      PlayerUI 1_1: 6887653332676163089
+      PlayerUI 1_10: 3654902020030852330
+      PlayerUI 1_11: 900324325358319211
+      PlayerUI 1_2: -5682418500923102983
+      PlayerUI 1_3: -5681742892339317296
+      PlayerUI 1_4: 418345612096917888
+      PlayerUI 1_5: 5620028520167994638
+      PlayerUI 1_6: 7840212722168220684
+      PlayerUI 1_7: 847292527731624979
+      PlayerUI 1_8: -4655101319029767828
+      PlayerUI 1_9: -5757168536465309796
+      PlayerUI_0: 973522995
+      PlayerUI_1: 1814047981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
