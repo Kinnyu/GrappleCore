@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: 79f72d72dffadb54a936fca15acfa2f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5818630029886798720
+    second: Fort_0
+  - first:
+      213: -9153825285907572806
+    second: Fort_1
+  - first:
+      213: -5086218367942438942
+    second: Fort_2
+  - first:
+      213: -5212088112211034128
+    second: Fort_3
+  - first:
+      213: 6438118833691614125
+    second: Fort_4
+  - first:
+      213: -5250995117503665945
+    second: Fort_5
+  - first:
+      213: -4546563785952878806
+    second: Fort_6
+  - first:
+      213: -214929215221868871
+    second: Fort_7
+  - first:
+      213: 3145068187469406170
+    second: Fort_8
+  - first:
+      213: 8561425025784804437
+    second: Fort_9
+  - first:
+      213: 1786125499681752951
+    second: Fort_10
+  - first:
+      213: 788311213533629785
+    second: Fort_11
+  - first:
+      213: 1102926218585426860
+    second: Fort_12
+  - first:
+      213: 1290037189373435651
+    second: Fort_13
+  - first:
+      213: -7988294315916442005
+    second: Fort_14
+  - first:
+      213: -3150155487463683407
+    second: Fort_15
+  - first:
+      213: -7170089958478136853
+    second: Fort_16
+  - first:
+      213: -343139416618247824
+    second: Fort_17
+  - first:
+      213: -1902734829752633444
+    second: Fort_18
+  - first:
+      213: 4759329941554616965
+    second: Fort_19
+  - first:
+      213: 2974467398842355764
+    second: Fort_20
+  - first:
+      213: -5341693985548173329
+    second: Fort_21
+  - first:
+      213: -4693365181207669441
+    second: Fort_22
+  - first:
+      213: -7655062145340333683
+    second: Fort_23
+  - first:
+      213: 5831631472473656533
+    second: Fort_24
+  - first:
+      213: -921097877248263038
+    second: Fort_25
+  - first:
+      213: 7871582615079062925
+    second: Fort_26
+  - first:
+      213: 7287180028999989422
+    second: Fort_27
+  - first:
+      213: -1134991130377465815
+    second: Fort_28
+  - first:
+      213: -2997527074250604985
+    second: Fort_29
+  - first:
+      213: -8961475852628579067
+    second: Fort_30
+  - first:
+      213: 3855143872726627752
+    second: Fort_31
+  - first:
+      213: -1993667820192191479
+    second: Fort_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fort_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 467
+        width: 214
+        height: 178
+      alignment: 9
+      pivot: {x: 0.49093086, y: 0.5000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0844d25f0d2104fa0800000000000000
+      internalID: -5818630029886798720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fort_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 469
+        width: 258
+        height: 176
+      alignment: 9
+      pivot: {x: 0.39719173, y: 0.50735474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab79d79c66417f080800000000000000
+      internalID: -9153825285907572806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fort_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 469
+        width: 299
+        height: 178
+      alignment: 9
+      pivot: {x: 0.33988643, y: 0.5000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef49b0a75f1a69b0800000000000000
+      internalID: -5086218367942438942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fort_3
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 468
+        width: 211
+        height: 179
+      alignment: 9
+      pivot: {x: 0.481605, y: 0.50361574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffff9d0a71faa7b0800000000000000
+      internalID: -5212088112211034128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fort_4
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 469
+        width: 215
+        height: 211
+      alignment: 9
+      pivot: {x: 0.47291914, y: 0.42641386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabd0f7f7fac85950800000000000000
+      internalID: 6438118833691614125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fort_5
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 535
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e822e7f2c7b027b0800000000000000
+      internalID: -5250995117503665945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec110f0d050baca46bbc0348413a33ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fort_0: -5818630029886798720
+      Fort_1: -9153825285907572806
+      Fort_10: 1786125499681752951
+      Fort_11: 788311213533629785
+      Fort_12: 1102926218585426860
+      Fort_13: 1290037189373435651
+      Fort_14: -7988294315916442005
+      Fort_15: -3150155487463683407
+      Fort_16: -7170089958478136853
+      Fort_17: -343139416618247824
+      Fort_18: -1902734829752633444
+      Fort_19: 4759329941554616965
+      Fort_2: -5086218367942438942
+      Fort_20: 2974467398842355764
+      Fort_21: -5341693985548173329
+      Fort_22: -4693365181207669441
+      Fort_23: -7655062145340333683
+      Fort_24: 5831631472473656533
+      Fort_25: -921097877248263038
+      Fort_26: 7871582615079062925
+      Fort_27: 7287180028999989422
+      Fort_28: -1134991130377465815
+      Fort_29: -2997527074250604985
+      Fort_3: -5212088112211034128
+      Fort_30: -8961475852628579067
+      Fort_31: 3855143872726627752
+      Fort_32: -1993667820192191479
+      Fort_4: 6438118833691614125
+      Fort_5: -5250995117503665945
+      Fort_6: -4546563785952878806
+      Fort_7: -214929215221868871
+      Fort_8: 3145068187469406170
+      Fort_9: 8561425025784804437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
