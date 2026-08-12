@@ -24,7 +24,7 @@ AnimationClip:
       value: {fileID: 7588353388349702493, guid: 9dc8399450e2ea94b9ffe59a0211617c, type: 3}
     - time: 0.016666668
       value: {fileID: 6374375613726006911, guid: 9dc8399450e2ea94b9ffe59a0211617c, type: 3}
-    - time: 0.033333335
+    - time: 0.05
       value: {fileID: 7496859555948530725, guid: 9dc8399450e2ea94b9ffe59a0211617c, type: 3}
     attribute: m_Sprite
     path: 
@@ -56,7 +56,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.050000004
+    m_StopTime: 0.06666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -75,4 +75,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.016666668
+    functionName: TriggerAnimationEvent
+    data: Hurt
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

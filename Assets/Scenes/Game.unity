@@ -811,6 +811,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1844740844}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &71620063 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1425246907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &94553022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,6 +1413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1608,6 +1617,82 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NowHp","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!1001 &168955467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":40.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1734290511}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1001 &198030185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1759,10 +1844,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1968421122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &267884697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":42.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1199158262}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.349998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!4 &321091164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 953280434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &331555150 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1852315443}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &357377542 stripped
 Transform:
@@ -1820,6 +1986,10 @@ PrefabInstance:
     - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
       propertyPath: m_Name
       value: Green Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2151,11 +2321,101 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+--- !u!1001 &424120220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+--- !u!82 &443914568 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 547544566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &452654780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2698,6 +2958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2782,10 +3046,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 443914568}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 319.8
@@ -2831,6 +3104,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+--- !u!82 &549668509 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 737675204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &558276278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2940,10 +3218,114 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558276278}
   m_CullTransparentMesh: 1
+--- !u!82 &583119397 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 6742853169270389708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &592947963 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1402921628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &600594339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1208959963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &605421387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1737969030}
+    m_Modifications:
+    - target: {fileID: 3896019206824649363, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0833517
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896019206824649363, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.58413476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450147356121542220, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Name
+      value: NormalFloor (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -324.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0868471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5864719
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0000010728836
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0017107725
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.0833517
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.58413476
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!4 &605421388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+  m_PrefabInstance: {fileID: 605421387}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &616314428 stripped
 Transform:
@@ -2954,6 +3336,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1056342675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &619378170 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1874897288}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &621259353
 GameObject:
@@ -3306,6 +3693,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!1001 &716775551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":34.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1516060739}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1 &717279039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,6 +3897,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!1001 &737675204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":48.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 549668509}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1 &747260204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,6 +4139,95 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750262081}
   m_CullTransparentMesh: 1
+--- !u!1001 &757263527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 268.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1 &758086296
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,6 +4464,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781374794}
   m_CullTransparentMesh: 1
+--- !u!1001 &818086010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":36.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1149110686}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1001 &849483634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4031,6 +4735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4070,7 +4778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -4.25}
+  m_AnchoredPosition: {x: -17.68, y: -19.97}
   m_SizeDelta: {x: 8.5, y: 8.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899727361
@@ -4748,6 +5456,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!1001 &1057745810
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":50.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1252342442}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 37.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1001 &1062801644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4799,6 +5583,10 @@ PrefabInstance:
     - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
       propertyPath: m_Name
       value: Green Slime (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5109,6 +5897,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 694349415}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1149110686 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 818086010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1155784290
 GameObject:
   m_ObjectHideFlags: 0
@@ -5308,6 +6101,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1236362222}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1199158262 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 267884697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1208959963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5479,73 +6277,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1250847489}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1232188490
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_Name
-      value: Fort (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3599999
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1001 &1236362222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5708,6 +6439,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!82 &1252342442 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1057745810}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1259720257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5760,6 +6496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5800,9 +6540,9 @@ RectTransform:
   m_Father: {fileID: 53597745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.305}
-  m_AnchoredPosition: {x: 0.2000122, y: -0.22998047}
-  m_SizeDelta: {x: -0.4, y: 0.45999}
+  m_AnchorMax: {x: 1, y: 0.2725069}
+  m_AnchoredPosition: {x: 0.2000122, y: -0.9700012}
+  m_SizeDelta: {x: -0.4, y: -1.0299997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259771762
 MonoBehaviour:
@@ -5975,6 +6715,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 2129322269}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1362602738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 135.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1001 &1370694271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6056,6 +6877,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!1001 &1402921628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":38.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 592947963}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1001 &1425246907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6072,8 +6969,17 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 71620063}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 279.6
@@ -6114,6 +7020,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6153,7 +7063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11.812103, y: -2.173294}
+  m_AnchoredPosition: {x: -5.600006, y: -24}
   m_SizeDelta: {x: 293.038, y: 236.0778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447956118
@@ -6254,6 +7164,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1465059708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2077027827}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!1 &1488088381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,6 +7282,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1370694271}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1505214809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 237
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1001 &1510031768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6381,6 +7456,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!82 &1516060739 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 716775551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1524974038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6573,6 +7653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Slime (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8068589428734277748, guid: 27bf31f6833d5b742a6b7841e983dd6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6675,6 +7759,7 @@ GameObject:
   - component: {fileID: 1616590755}
   - component: {fileID: 1616590754}
   - component: {fileID: 1616590758}
+  - component: {fileID: 1616590759}
   m_Layer: 7
   m_Name: GraveRobber_0
   m_TagString: Player
@@ -6793,7 +7878,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -6856,6 +7941,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsPlayerMoving","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LastPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerAttackAudio","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsInvincible","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"InvincibleTime","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerHurtAudio","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 510489074}
@@ -6865,6 +7954,7 @@ MonoBehaviour:
     - {fileID: 45848368}
     - {fileID: 143307842}
     - {fileID: 1616590758}
+    - {fileID: 1616590759}
 --- !u!61 &1616590757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6925,6 +8015,103 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: 133ab11524a4fd041822d30b5cb80cbb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1616590759
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616590750}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 276d2652e62e1d949a1135c15127f909, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7184,6 +8371,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2095288288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1653213351
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 243.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1001 &1665724822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7270,10 +8546,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 132707227}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1674205468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 197.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!4 &1676554116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 737412969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1734290511 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 168955467}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1737969029
 GameObject:
@@ -7322,6 +8684,7 @@ Transform:
   - {fileID: 265985341}
   - {fileID: 321091164}
   - {fileID: 19121118}
+  - {fileID: 605421388}
   - {fileID: 964558330}
   - {fileID: 851821598}
   - {fileID: 1676554116}
@@ -7709,16 +9072,257 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+--- !u!1001 &1852315443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":46.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 331555150}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!4 &1853925473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2762895874968206684, guid: 663e36b63ff2d9849b07e44d672738ab, type: 3}
   m_PrefabInstance: {fileID: 112277777}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1874897288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 568813949937346156, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_Name
+      value: Fort (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":44.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 619378170}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
 --- !u!4 &1876600059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1156666347}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1896600026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 240.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1 &1917079488
 GameObject:
   m_ObjectHideFlags: 0
@@ -8260,6 +9864,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 392481632}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &2077027827 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+  m_PrefabInstance: {fileID: 1465059708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2095288286
 GameObject:
   m_ObjectHideFlags: 0
@@ -8455,6 +10064,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
   m_PrefabInstance: {fileID: 1510031768}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2115838991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1218456561713694867, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OriginPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WalkToPlace","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanAttack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWalk","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hp","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HurtAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackedDamage","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 92.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087837931267049698, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5495212327845600236, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
+      propertyPath: m_Name
+      value: Centipede_0 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
 --- !u!1001 &2129322269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8551,11 +10241,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 172304324723656718, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.89
+      value: 239.9
       objectReference: {fileID: 0}
     - target: {fileID: 172304324723656718, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.99
+      value: 10.46
       objectReference: {fileID: 0}
     - target: {fileID: 172304324723656718, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8589,19 +10279,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300998175093334066, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: dabb5b60f11a4394bb1831dbcd0d2a26, type: 2}
     - target: {fileID: 6475516298283266414, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
       propertyPath: m_Name
       value: TNT2_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8341360835286812311, guid: d4f6cdc1e1ba21247bd07057fe4a7eb2, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BombArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.CircleCollider2D,
-        UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ColliderList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Collider2D,
-        UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.Collider2D,
-        UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FuseAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BombAudio","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8749,7 +10433,7 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectDistance","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkingDistance","value":{"$content":7.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ChasingDistance","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDistance","value":{"$content":2.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCD","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WalkCD","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -8764,11 +10448,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.12
+      value: 6.89
       objectReference: {fileID: 0}
     - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2
+      value: -2.34
       objectReference: {fileID: 0}
     - target: {fileID: 3489402402993993618, guid: 5a496d344ef99b34fb76f22e17e3503c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9000,8 +10684,17 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletSpeed","value":{"$content":-0.08,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackDtn","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FortFireAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420083093341907170, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 583119397}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 144.843
@@ -9041,6 +10734,10 @@ PrefabInstance:
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313953833963739414, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9141,9 +10838,18 @@ SceneRoots:
   - {fileID: 758086299}
   - {fileID: 1737969030}
   - {fileID: 6742853169270389708}
+  - {fileID: 1465059708}
+  - {fileID: 716775551}
+  - {fileID: 267884697}
+  - {fileID: 1874897288}
+  - {fileID: 1852315443}
+  - {fileID: 737675204}
+  - {fileID: 1057745810}
+  - {fileID: 818086010}
+  - {fileID: 1402921628}
+  - {fileID: 168955467}
   - {fileID: 1425246907}
   - {fileID: 547544566}
-  - {fileID: 1232188490}
   - {fileID: 8197707}
   - {fileID: 69621685572169017}
   - {fileID: 8493928}
@@ -9151,3 +10857,11 @@ SceneRoots:
   - {fileID: 5363314353494323384}
   - {fileID: 1823411090}
   - {fileID: 2840414070449899560}
+  - {fileID: 424120220}
+  - {fileID: 2115838991}
+  - {fileID: 1362602738}
+  - {fileID: 1674205468}
+  - {fileID: 1505214809}
+  - {fileID: 1896600026}
+  - {fileID: 1653213351}
+  - {fileID: 757263527}
