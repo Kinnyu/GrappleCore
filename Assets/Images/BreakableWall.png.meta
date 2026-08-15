@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 45602f030784247458ece9b03ecc7cd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7946863772386290884
+    second: BreakableWall_0
+  - first:
+      213: 7004609553962061265
+    second: BreakableWall_1
+  - first:
+      213: -1590110628501855903
+    second: BreakableWall_2
+  - first:
+      213: 252027016614270107
+    second: BreakableWall_3
+  - first:
+      213: -5371535653768635946
+    second: BreakableWall_4
+  - first:
+      213: -2948899112540540197
+    second: BreakableWall_5
+  - first:
+      213: 3727103760336325352
+    second: BreakableWall_6
+  - first:
+      213: -7065889484857365311
+    second: BreakableWall_7
+  - first:
+      213: -7906258258226714093
+    second: BreakableWall_8
+  - first:
+      213: 9186297368081568428
+    second: BreakableWall_9
+  - first:
+      213: -7320905256857706525
+    second: BreakableWall_10
+  - first:
+      213: -7105064879310541967
+    second: BreakableWall_11
+  - first:
+      213: -2872532785002288336
+    second: BreakableWall_12
+  - first:
+      213: -2735501959738954826
+    second: BreakableWall_13
+  - first:
+      213: -8866913605612147869
+    second: BreakableWall_14
+  - first:
+      213: 6651164968272924102
+    second: BreakableWall_15
+  - first:
+      213: -4224374600509022368
+    second: BreakableWall_16
+  - first:
+      213: 6338668158744885504
+    second: BreakableWall_17
+  - first:
+      213: 215257523380329622
+    second: BreakableWall_18
+  - first:
+      213: 7250592439071214414
+    second: BreakableWall_19
+  - first:
+      213: -5808861698013167243
+    second: BreakableWall_20
+  - first:
+      213: 3037139234262690496
+    second: BreakableWall_21
+  - first:
+      213: -4414549408727362488
+    second: BreakableWall_22
+  - first:
+      213: -5829670061659438757
+    second: BreakableWall_23
+  - first:
+      213: -1591125604040014105
+    second: BreakableWall_24
+  - first:
+      213: -4509172263356379218
+    second: BreakableWall_25
+  - first:
+      213: 1854715637561942452
+    second: BreakableWall_26
+  - first:
+      213: 2683811979865681811
+    second: BreakableWall_27
+  - first:
+      213: -9119499835333575852
+    second: BreakableWall_28
+  - first:
+      213: -7320058496213254205
+    second: BreakableWall_29
+  - first:
+      213: 6571035467550682615
+    second: BreakableWall_30
+  - first:
+      213: -7156615496668595025
+    second: BreakableWall_31
+  - first:
+      213: -7480469350894831398
+    second: BreakableWall_32
+  - first:
+      213: -6440125777474831889
+    second: BreakableWall_33
+  - first:
+      213: -6637281050760917358
+    second: BreakableWall_34
+  - first:
+      213: 7147000744334056019
+    second: BreakableWall_35
+  - first:
+      213: -1782435523593682722
+    second: BreakableWall_36
+  - first:
+      213: -8082867883942788444
+    second: BreakableWall_37
+  - first:
+      213: 20644311510048240
+    second: BreakableWall_38
+  - first:
+      213: -5064543428819994487
+    second: BreakableWall_39
+  - first:
+      213: -7803604178018228106
+    second: BreakableWall_40
+  - first:
+      213: -7192997923944931209
+    second: BreakableWall_41
+  - first:
+      213: -4472460482379960075
+    second: BreakableWall_42
+  - first:
+      213: -5616699719748797887
+    second: BreakableWall_43
+  - first:
+      213: -4240508716151005685
+    second: BreakableWall_44
+  - first:
+      213: -2254948762838833477
+    second: BreakableWall_45
+  - first:
+      213: 5831466463458352655
+    second: BreakableWall_46
+  - first:
+      213: -4768808394485715710
+    second: BreakableWall_47
+  - first:
+      213: -7278121443805693254
+    second: BreakableWall_48
+  - first:
+      213: 8442141652566705174
+    second: BreakableWall_49
+  - first:
+      213: 2778241783533108324
+    second: BreakableWall_50
+  - first:
+      213: -1807144639984540591
+    second: BreakableWall_51
+  - first:
+      213: 3048005492753580574
+    second: BreakableWall_52
+  - first:
+      213: -6625084747339423722
+    second: BreakableWall_53
+  - first:
+      213: -6166923905431616905
+    second: BreakableWall_54
+  - first:
+      213: -1332577541936234199
+    second: BreakableWall_55
+  - first:
+      213: 8605342340758633178
+    second: BreakableWall_56
+  - first:
+      213: 7792207227799202057
+    second: BreakableWall_57
+  - first:
+      213: -6239291745441106801
+    second: BreakableWall_58
+  - first:
+      213: -2752710529756561222
+    second: BreakableWall_59
+  - first:
+      213: 8055284543573700086
+    second: BreakableWall_60
+  - first:
+      213: -2237787845963261704
+    second: BreakableWall_61
+  - first:
+      213: -6710066889337799026
+    second: BreakableWall_62
+  - first:
+      213: 9023637974808040238
+    second: BreakableWall_63
+  - first:
+      213: -1843318887120640957
+    second: BreakableWall_64
+  - first:
+      213: -6560862804988778557
+    second: BreakableWall_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BreakableWall_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 74
+        width: 88
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c339e78d08117b190800000000000000
+      internalID: -7946863772386290884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakableWall_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 75
+        width: 88
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd473ef64f553160800000000000000
+      internalID: 7004609553962061265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakableWall_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 73
+        width: 88
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e292eecacee9e0800000000000000
+      internalID: -1590110628501855903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakableWall_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 71
+        width: 96
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94581f7c316f7300800000000000000
+      internalID: 252027016614270107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakableWall_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 72
+        width: 83
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d956c258c87475b0800000000000000
+      internalID: -5371535653768635946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakableWall_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 73
+        width: 103
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd27e8e81e76317d0800000000000000
+      internalID: -2948899112540540197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d8c260e3cc99f5d4498e64e8035bd6a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BreakableWall_0: -7946863772386290884
+      BreakableWall_1: 7004609553962061265
+      BreakableWall_10: -7320905256857706525
+      BreakableWall_11: -7105064879310541967
+      BreakableWall_12: -2872532785002288336
+      BreakableWall_13: -2735501959738954826
+      BreakableWall_14: -8866913605612147869
+      BreakableWall_15: 6651164968272924102
+      BreakableWall_16: -4224374600509022368
+      BreakableWall_17: 6338668158744885504
+      BreakableWall_18: 215257523380329622
+      BreakableWall_19: 7250592439071214414
+      BreakableWall_2: -1590110628501855903
+      BreakableWall_20: -5808861698013167243
+      BreakableWall_21: 3037139234262690496
+      BreakableWall_22: -4414549408727362488
+      BreakableWall_23: -5829670061659438757
+      BreakableWall_24: -1591125604040014105
+      BreakableWall_25: -4509172263356379218
+      BreakableWall_26: 1854715637561942452
+      BreakableWall_27: 2683811979865681811
+      BreakableWall_28: -9119499835333575852
+      BreakableWall_29: -7320058496213254205
+      BreakableWall_3: 252027016614270107
+      BreakableWall_30: 6571035467550682615
+      BreakableWall_31: -7156615496668595025
+      BreakableWall_32: -7480469350894831398
+      BreakableWall_33: -6440125777474831889
+      BreakableWall_34: -6637281050760917358
+      BreakableWall_35: 7147000744334056019
+      BreakableWall_36: -1782435523593682722
+      BreakableWall_37: -8082867883942788444
+      BreakableWall_38: 20644311510048240
+      BreakableWall_39: -5064543428819994487
+      BreakableWall_4: -5371535653768635946
+      BreakableWall_40: -7803604178018228106
+      BreakableWall_41: -7192997923944931209
+      BreakableWall_42: -4472460482379960075
+      BreakableWall_43: -5616699719748797887
+      BreakableWall_44: -4240508716151005685
+      BreakableWall_45: -2254948762838833477
+      BreakableWall_46: 5831466463458352655
+      BreakableWall_47: -4768808394485715710
+      BreakableWall_48: -7278121443805693254
+      BreakableWall_49: 8442141652566705174
+      BreakableWall_5: -2948899112540540197
+      BreakableWall_50: 2778241783533108324
+      BreakableWall_51: -1807144639984540591
+      BreakableWall_52: 3048005492753580574
+      BreakableWall_53: -6625084747339423722
+      BreakableWall_54: -6166923905431616905
+      BreakableWall_55: -1332577541936234199
+      BreakableWall_56: 8605342340758633178
+      BreakableWall_57: 7792207227799202057
+      BreakableWall_58: -6239291745441106801
+      BreakableWall_59: -2752710529756561222
+      BreakableWall_6: 3727103760336325352
+      BreakableWall_60: 8055284543573700086
+      BreakableWall_61: -2237787845963261704
+      BreakableWall_62: -6710066889337799026
+      BreakableWall_63: 9023637974808040238
+      BreakableWall_64: -1843318887120640957
+      BreakableWall_65: -6560862804988778557
+      BreakableWall_7: -7065889484857365311
+      BreakableWall_8: -7906258258226714093
+      BreakableWall_9: 9186297368081568428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
