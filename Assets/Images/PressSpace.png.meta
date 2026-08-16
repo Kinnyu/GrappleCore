@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c2db32424082a8c489424618c264265c
+guid: 811e91e68499b9c408136e0a31808d71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4130640169021434097
-    second: 5_0
+      213: -8927771035224386202
+    second: PressSpace_0
+  - first:
+      213: -751370409871877993
+    second: PressSpace_1
+  - first:
+      213: 5361017095469867160
+    second: PressSpace_2
+  - first:
+      213: -5105533216917339063
+    second: PressSpace_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5_0
+      name: PressSpace_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 576
-        height: 108
+        x: 41
+        y: 6
+        width: 375
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f86b71495bf25930800000000000000
-      internalID: 4130640169021434097
+      spriteID: 665dd697b8f2a1480800000000000000
+      internalID: -8927771035224386202
       vertices: []
       indices: 
       edges: []
@@ -125,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c6aec3a882d65f943ab40ab4320f9cc7
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +144,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      5_0: 4130640169021434097
+      PressSpace_0: -8927771035224386202
+      PressSpace_1: -751370409871877993
+      PressSpace_2: 5361017095469867160
+      PressSpace_3: -5105533216917339063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
