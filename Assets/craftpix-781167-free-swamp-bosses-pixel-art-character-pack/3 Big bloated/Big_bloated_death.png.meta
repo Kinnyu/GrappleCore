@@ -117,7 +117,7 @@ TextureImporter:
         width: 48
         height: 49
       alignment: 9
-      pivot: {x: 0.36048827, y: 0.43166783}
+      pivot: {x: 0.36048827, y: 0.48047623}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: Big_bloated_death_1
       rect:
         serializedVersion: 2
-        x: 96
+        x: 95
         y: 0
         width: 48
         height: 41
       alignment: 9
-      pivot: {x: 0.3206276, y: 0.53499913}
+      pivot: {x: 0.350523, y: 0.5699989}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,7 +161,7 @@ TextureImporter:
         width: 47
         height: 27
       alignment: 9
-      pivot: {x: 0.34734207, y: 0.7834533}
+      pivot: {x: 0.34734207, y: 0.85431594}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: Big_bloated_death_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 241
         y: 0
         width: 47
         height: 23
       alignment: 9
-      pivot: {x: 0.3676972, y: 0.9367326}
+      pivot: {x: 0.3676972, y: 1.0407164}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
