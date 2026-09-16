@@ -7879,7 +7879,7 @@ Transform:
   m_GameObject: {fileID: 1019144664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 488.24, y: 95.02, z: 0}
+  m_LocalPosition: {x: -1.5, y: -0.6, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8197,7 +8197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_Size.y
-      value: 7.2
+      value: 7.1635637
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.01821816
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -8350,19 +8354,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_Size.x
-      value: 1.599878
+      value: 1.5332521
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_Size.y
-      value: 0.6679185
+      value: 0.62350166
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_Offset.x
-      value: 0.045152724
+      value: 0.011839807
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_Offset.y
-      value: -0.025801092
+      value: -0.0035926849
       objectReference: {fileID: 0}
     - target: {fileID: 8322313061930416089, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -10487,11 +10491,11 @@ PrefabInstance:
       objectReference: {fileID: 71620063}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 279.6
+      value: 279.65
       objectReference: {fileID: 0}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.9
+      value: 28.68
       objectReference: {fileID: 0}
     - target: {fileID: 6048663379792371426, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11728,7 +11732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -241.22495
+      value: -242.1
       objectReference: {fileID: 0}
     - target: {fileID: 6117984959227477626, guid: 538b884ce8c01294ca22f1bd3b737aa3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13486,7 +13490,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1726309467}
   - component: {fileID: 1726309466}
-  m_Layer: 0
+  - component: {fileID: 1726309468}
+  - component: {fileID: 1726309469}
+  - component: {fileID: 1726309470}
+  m_Layer: 16
   m_Name: BossCompleteDoor_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13568,6 +13575,98 @@ Transform:
   - {fileID: 2086000101}
   m_Father: {fileID: 8197707}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1726309468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726309465}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.76, y: 4.85}
+    newSize: {x: 4.76, y: 4.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.79, y: 3.11}
+  m_EdgeRadius: 0
+--- !u!114 &1726309469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726309465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 73c73d3923f044cd965e7a328e7cb023, type: 2}
+--- !u!114 &1726309470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726309465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsPlayerIn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ListGO","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PressSpaceGO","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsStartScaling","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsStopScaling","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsOpened","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CountUp","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MaxCountUp","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Mask","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.RectTransform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TPPos","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1744085974}
+    - {fileID: 899727360}
+    - {fileID: 960365975}
 --- !u!82 &1734290511 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 2143984904094403606, guid: 8d44d92fd08a3d5408ddb1d826c5d20c, type: 3}
@@ -13772,7 +13871,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8927771035224386202, guid: 811e91e68499b9c408136e0a31808d71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
