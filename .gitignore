@@ -66,3 +66,7 @@ Thumbs.db
 
 .gemini/
 gha-creds-*.json
+
+# Visual Scripting generated AOT stubs
+AotStubs.cs
+AotStubs.cs.meta
