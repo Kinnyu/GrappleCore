@@ -1,10 +1,142 @@
 fileFormatVersion: 2
-guid: 5c9ffb2dc45e27d4f991fd5ae71d6b99
+guid: b9e20ef3c9e316c4f8f173882654dadf
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4173362283699151087
     second: PlayerControlNew_0
+  - first:
+      213: -4067767440127319647
+    second: PlayerControlNew_1
+  - first:
+      213: 6691202876401555650
+    second: PlayerControlNew_2
+  - first:
+      213: 2393683536652326756
+    second: PlayerControlNew_3
+  - first:
+      213: 8251851529143103052
+    second: PlayerControlNew_4
+  - first:
+      213: 3407522419382608748
+    second: PlayerControlNew_5
+  - first:
+      213: -8012399227556991976
+    second: PlayerControlNew_6
+  - first:
+      213: 728321969033582782
+    second: PlayerControlNew_7
+  - first:
+      213: 3671619578924168336
+    second: PlayerControlNew_8
+  - first:
+      213: 1075887655858623211
+    second: PlayerControlNew_9
+  - first:
+      213: 3660425275242867659
+    second: PlayerControlNew_10
+  - first:
+      213: -1217354773252239260
+    second: PlayerControlNew_11
+  - first:
+      213: 5437845952729763651
+    second: PlayerControlNew_12
+  - first:
+      213: 7322918434319613444
+    second: PlayerControlNew_13
+  - first:
+      213: 7678558328625548301
+    second: PlayerControlNew_14
+  - first:
+      213: -6089826863260686257
+    second: PlayerControlNew_15
+  - first:
+      213: -5225190821405826364
+    second: PlayerControlNew_16
+  - first:
+      213: 3136845444058746017
+    second: PlayerControlNew_17
+  - first:
+      213: 1005823077369503490
+    second: PlayerControlNew_18
+  - first:
+      213: -6497016104780068424
+    second: PlayerControlNew_19
+  - first:
+      213: 3966352388642745905
+    second: PlayerControlNew_20
+  - first:
+      213: 3652149084826381170
+    second: PlayerControlNew_21
+  - first:
+      213: 1556203910804901430
+    second: PlayerControlNew_22
+  - first:
+      213: 281675859873910149
+    second: PlayerControlNew_23
+  - first:
+      213: -5802806798655153514
+    second: PlayerControlNew_24
+  - first:
+      213: 5690024721322268884
+    second: PlayerControlNew_25
+  - first:
+      213: 4065717268237201520
+    second: PlayerControlNew_26
+  - first:
+      213: -8663479128337776210
+    second: PlayerControlNew_27
+  - first:
+      213: 8845807715407276489
+    second: PlayerControlNew_28
+  - first:
+      213: -8621373370390176065
+    second: PlayerControlNew_29
+  - first:
+      213: -2306938110400558978
+    second: PlayerControlNew_30
+  - first:
+      213: 2778340383922867441
+    second: PlayerControlNew_31
+  - first:
+      213: 8442059128062749568
+    second: PlayerControlNew_32
+  - first:
+      213: 6380462480070881466
+    second: PlayerControlNew_33
+  - first:
+      213: 3994306393261019437
+    second: PlayerControlNew_34
+  - first:
+      213: -7486724611927750202
+    second: PlayerControlNew_35
+  - first:
+      213: -1034138634310494086
+    second: PlayerControlNew_36
+  - first:
+      213: -4316299583695246321
+    second: PlayerControlNew_37
+  - first:
+      213: -9004983673537067929
+    second: PlayerControlNew_38
+  - first:
+      213: 4286413334870381325
+    second: PlayerControlNew_39
+  - first:
+      213: 753714897092273154
+    second: PlayerControlNew_40
+  - first:
+      213: 3354196138433169761
+    second: PlayerControlNew_41
+  - first:
+      213: 7439957067051181605
+    second: PlayerControlNew_42
+  - first:
+      213: -8759358241381740218
+    second: PlayerControlNew_43
+  - first:
+      213: -5865008312428895199
+    second: PlayerControlNew_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +232,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerControlNew_0
+      name: PlayerControlNew_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 1468
-        height: 1044
+        x: 1255
+        y: 787
+        width: 258
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe0a6e6b2e2cae930800000000000000
-      internalID: 4173362283699151087
+      spriteID: be25ea96f125eee00800000000000000
+      internalID: 1075887655858623211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 534
+        width: 920
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb66b1e4617cc230800000000000000
+      internalID: 3660425275242867659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_22
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 786
+        width: 266
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e8995363fb89510800000000000000
+      internalID: 1556203910804901430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_23
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 705
+        width: 266
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d4691c3b6b8e300800000000000000
+      internalID: 281675859873910149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_24
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 707
+        width: 259
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a10f116f9487fa0800000000000000
+      internalID: -5802806798655153514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_25
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 623
+        width: 266
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8da95465707fe40800000000000000
+      internalID: 5690024721322268884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_26
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 625
+        width: 259
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070337a70545c6830800000000000000
+      internalID: 4065717268237201520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 513
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5262ebda889004760800000000000000
+      internalID: 7439957067051181605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_43
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 11
+        width: 493
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6411d0aa612807680800000000000000
+      internalID: -8759358241381740218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerControlNew_44
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 11
+        width: 509
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12466f4930e4b9ea0800000000000000
+      internalID: -5865008312428895199
       vertices: []
       indices: 
       edges: []
@@ -125,7 +455,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9fbc09a39f8f6c349ab1487592cc0c17
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +466,50 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       PlayerControlNew_0: 4173362283699151087
+      PlayerControlNew_1: -4067767440127319647
+      PlayerControlNew_10: 3660425275242867659
+      PlayerControlNew_11: -1217354773252239260
+      PlayerControlNew_12: 5437845952729763651
+      PlayerControlNew_13: 7322918434319613444
+      PlayerControlNew_14: 7678558328625548301
+      PlayerControlNew_15: -6089826863260686257
+      PlayerControlNew_16: -5225190821405826364
+      PlayerControlNew_17: 3136845444058746017
+      PlayerControlNew_18: 1005823077369503490
+      PlayerControlNew_19: -6497016104780068424
+      PlayerControlNew_2: 6691202876401555650
+      PlayerControlNew_20: 3966352388642745905
+      PlayerControlNew_21: 3652149084826381170
+      PlayerControlNew_22: 1556203910804901430
+      PlayerControlNew_23: 281675859873910149
+      PlayerControlNew_24: -5802806798655153514
+      PlayerControlNew_25: 5690024721322268884
+      PlayerControlNew_26: 4065717268237201520
+      PlayerControlNew_27: -8663479128337776210
+      PlayerControlNew_28: 8845807715407276489
+      PlayerControlNew_29: -8621373370390176065
+      PlayerControlNew_3: 2393683536652326756
+      PlayerControlNew_30: -2306938110400558978
+      PlayerControlNew_31: 2778340383922867441
+      PlayerControlNew_32: 8442059128062749568
+      PlayerControlNew_33: 6380462480070881466
+      PlayerControlNew_34: 3994306393261019437
+      PlayerControlNew_35: -7486724611927750202
+      PlayerControlNew_36: -1034138634310494086
+      PlayerControlNew_37: -4316299583695246321
+      PlayerControlNew_38: -9004983673537067929
+      PlayerControlNew_39: 4286413334870381325
+      PlayerControlNew_4: 8251851529143103052
+      PlayerControlNew_40: 753714897092273154
+      PlayerControlNew_41: 3354196138433169761
+      PlayerControlNew_42: 7439957067051181605
+      PlayerControlNew_43: -8759358241381740218
+      PlayerControlNew_44: -5865008312428895199
+      PlayerControlNew_5: 3407522419382608748
+      PlayerControlNew_6: -8012399227556991976
+      PlayerControlNew_7: 728321969033582782
+      PlayerControlNew_8: 3671619578924168336
+      PlayerControlNew_9: 1075887655858623211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
