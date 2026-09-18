@@ -12062,7 +12062,7 @@ Transform:
   m_GameObject: {fileID: 960365974}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.13, y: 5.23, z: 0}
+  m_LocalPosition: {x: 6.13, y: 4.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37722,7 +37722,7 @@ GameObject:
   - component: {fileID: 1744085975}
   - component: {fileID: 1744085976}
   m_Layer: 16
-  m_Name: PressSpace_0
+  m_Name: PressW_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37738,7 +37738,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.09, y: 1.86, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1019144666}
@@ -37792,7 +37792,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8927771035224386202, guid: 811e91e68499b9c408136e0a31808d71, type: 3}
+  m_Sprite: {fileID: -7610946564487334270, guid: 1e6f3fb31d5ddb944bc43c1a955036c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
