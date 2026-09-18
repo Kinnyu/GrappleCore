@@ -70,3 +70,7 @@ gha-creds-*.json
 # Visual Scripting generated AOT stubs
 AotStubs.cs
 AotStubs.cs.meta
+
+# Unity Performance Testing generated files
+/[Aa]ssets/Resources/PerformanceTestRunInfo.json
+/[Aa]ssets/Resources/PerformanceTestRunSettings.json
